@@ -15,7 +15,7 @@
         <field
             name="jwks_uri"
         >https://login.microsoftonline.com/organizations/discovery/v2.0/keys</field>
-        <field name="css_class">fa fa-fw fa-windows</field>
+        <field name="icon">oi_windows</field>
         <field name="body">Log in with Microsoft</field>
     </record>
     <record id="provider_azuread_single" model="auth.oauth.provider">
@@ -33,7 +33,7 @@
         <field
             name="jwks_uri"
         >https://login.microsoftonline.com/{tenant_id}/discovery/v2.0/keys</field>
-        <field name="css_class">fa fa-fw fa-windows</field>
+        <field name="icon">oi_windows</field>
         <field name="body">Log in with Microsoft</field>
     </record>
 </odoo>
